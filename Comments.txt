@@ -1,0 +1,25 @@
+﻿//EN//
+To start working with the program, you need a ready-made database in SQL server,
+which can be done using DDL scripts in Storage.txt or Storage.sql files,
+open the project in Visual Studio and connect the database using
+ADO.NET Entity Data Model.
+
+Users:
+admin - adds suppliers, orders goods for storage, deletes customers/suppliers,
+looks at the current state of the warehouse, looks at agreements with customers, looks at statistics.
+moderator - looks at the current state of the warehouse, looks at agreements with customers, reviews
+customer and supplier accounts.
+client - browses the product, adds the product to the cart, buys the product.
+
+//UA//
+Для початку роботи з програмою потрібна готова база данних у SQL сервер,
+яку можна зробити за допомогою DDL скриптів у файлах Storage.txt або Storage.sql,
+відкрити проект у Visual Studio та підключити базу данних за допомогою 
+ADO.NET Entity Data Model.
+
+Користувачі: 
+адмін - додає постачальників, замовляє товар на склад, видаляє клієнтів/постачальників, 
+дивиться актуальний стан складу, дивиться угоди з клієнтами, дивиться статистику.
+модератор - дивиться актуальний стан складу, дивиться угоди з клієнтами, переглядає
+облікові записи клієнтів та постачальників.
+клієнт - переглядає товар, додає товар у кошик, купляє товар.
